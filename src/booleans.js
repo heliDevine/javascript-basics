@@ -65,7 +65,7 @@ function isEven(a) {
 
 function isSquare(a) {
   // your code here
-  Boolean(Math.sqrt(a) % 1 === 0);
+  return Boolean(Math.sqrt(a) % 1 === 0);
 }
 
 function startsWith(char, string) {
