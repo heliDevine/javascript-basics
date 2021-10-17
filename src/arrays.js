@@ -1,25 +1,38 @@
 const getNthElement = (index, array) => {
   // your code here
-};
+  if (index < array.length){
+    return array[index];
+  }
+   else if (index-(array.length) < array.length){
+     return array[index-(array.length)]
+   }
 
+};
+  
 const arrayToCSVString = array => {
   // your code here
+  return array.join()
 };
 
 const csvStringToArray = string => {
+  return string.split(',');
   // your code here
+  document.write(array.toString());
 };
 
 const addToArray = (element, array) => {
   // your code here
+  array.push(element);
 };
 
 const addToArray2 = (element, array) => {
   // your code here
+  return array.concat(element);
 };
 
 const removeNthElement = (index, array) => {
   // your code here
+  return array.pop(n);
 };
 
 const numbersToStrings = numbers => {
